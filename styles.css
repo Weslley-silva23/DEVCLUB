@@ -1,4 +1,4 @@
-*{
+* {
 
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -45,59 +45,90 @@ header {
     border: 1px solid #4CB538;
     background: #6FBF44;
     cursor: pointer;
-    }
+}
 
-    img {
+img {
 
-        width: 595.178px;
-        height: 500.005px;
-        flex-shrink: 0;
-        margin: 163px 0 0 123px;
-        display: inline-block;
-       
-    }
+    width: 595.178px;
+    height: 500.005px;
+    flex-shrink: 0;
+    margin: 163px 0 0 123px;
+    display: inline-block;
 
-    section {
+}
 
-        display: inline-block;
-        margin-left: 85px;
-        width: 498px;
-    }
+section {
 
-    h1 {
+    display: inline-block;
+    margin-left: 85px;
+    width: 498px;
+}
 
-        color: #161A49;
-        font-size: 62px;
-        font-weight: 700;
-        line-height: 82px; 
-        letter-spacing: 0.596px;
-        
+h1 {
 
-    }
-
-    p{
-
-        color: #4B505A;
-        font-size: 20px;
-        font-weight: 400;
-        line-height: 33px;
-        letter-spacing: 0.5px;
-        margin-top: 47px;
-        margin-bottom: 55px;
-        
-        
-    }
-
-    .button-learn-more {
+    color: #161A49;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 82px;
+    letter-spacing: 0.596px;
 
 
-        color: #6FBF44;
-        font-size: 18px;
-        font-weight: 500;
-        line-height: normal;
-        letter-spacing: 1px;
-        cursor: pointer;
-        background: transparent;
-        border: none;
-    }
+}
+
+p {
+
+    color: #4B505A;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    margin-top: 47px;
+    margin-bottom: 55px;
+
+
+}
+
+.button-learn-more {
+
+
+    color: #6FBF44;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+}
+
+@media screen and (max-width:700px) {
+
+
+header {
     
+    display: inline-flex;
+    position: relative;
+    right: 40px;
+    top: 25px;
+}
+
+.button-sign-up {
+
+    margin-left: 5px;
+    margin-top: -8px;
+}
+
+img {
+
+    position: relative;
+    right: 70px;
+
+}
+
+
+
+
+
+
+
+}
