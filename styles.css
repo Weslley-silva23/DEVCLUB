@@ -20,7 +20,7 @@ header {
 
     color: #17233D;
     text-align: center;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 600;
     line-height: normal;
     letter-spacing: 0.875px;
@@ -39,7 +39,7 @@ header {
     line-height: normal;
     letter-spacing: 1px;
     width: 124px;
-    height: 51px;
+    height: 40px;
     flex-shrink: 0;
     border-radius: 6px;
     border: 1px solid #4CB538;
@@ -49,10 +49,10 @@ header {
 
 img {
 
-    width: 595.178px;
-    height: 500.005px;
+    width: 519.178px;
+    height: 451.005px;
     flex-shrink: 0;
-    margin: 163px 0 0 123px;
+    margin: 60px 0 0 123px;
     display: inline-block;
 
 }
@@ -67,9 +67,9 @@ section {
 h1 {
 
     color: #161A49;
-    font-size: 62px;
+    font-size: 42px;
     font-weight: 700;
-    line-height: 82px;
+    line-height: 62px;
     letter-spacing: 0.596px;
 
 
